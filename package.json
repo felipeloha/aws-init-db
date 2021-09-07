@@ -1,0 +1,34 @@
+{
+  "name": "aws-init-db",
+  "version": "0.1.0",
+  "bin": {
+    "aws-init-db": "bin/aws-init-db.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest",
+    "lint": "eslint '*/**/*.{js,ts}' --quiet --fix"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.119.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "aws-cdk": "1.119.0",
+    "install": "^0.13.0",
+    "jest": "^26.4.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.119.0",
+    "@aws-cdk/aws-ec2": "1.119.0",
+    "@aws-cdk/aws-iam": "1.119.0",
+    "@aws-cdk/aws-lambda": "1.119.0",
+    "@aws-cdk/aws-rds": "1.119.0",
+    "@aws-cdk/aws-secretsmanager": "1.119.0",
+    "@aws-cdk/custom-resources": "1.119.0",
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2"
+  }
+}
